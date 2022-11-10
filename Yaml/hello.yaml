@@ -1,0 +1,26 @@
+# key value pair
+
+"apple": "I am a red fruit"
+1: "this is Deep's roll no"
+
+---
+#list
+- apple
+- mango
+- banana
+- Apple
+
+---
+#block
+cities:
+  - "new delhi"
+  - mumbai
+  - gujrat
+
+---
+cities: [new delhi, mumbai]
+---
+
+{mango: "yellow fruit", age : 56}
+
+...
