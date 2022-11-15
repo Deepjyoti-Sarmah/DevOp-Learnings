@@ -1,0 +1,30 @@
+Docker : Runs applications on isolated environments
+	1) Runtime : 
+		-runc : Runs with OS and starts and stops the container
+		-containerd : How to interect with the newtwork/internet
+
+	2) Engine/Damon : helps to interect with the client with server
+	3) Orchastructure : allows to merge containers
+
+Docker file ---> Image ---> Container
+list of         class       object
+instructions
+
+Dev Ops ----------|
+ |                download
+App               runs image
+Docker file       operating
+image
+conatiner
+
+
+*) docker pull imagename 
+*) docker run imagename/ docker run -it imagename:version
+*) docker ps -a
+*) docker container exec -it id bash
+*) docker inspect id
+*) docker logs id
+*) docker stop id 
+*) docker rm id 
+*) docker container prune -f
+ 
