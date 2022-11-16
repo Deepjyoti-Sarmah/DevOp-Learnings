@@ -18,7 +18,8 @@ image
 conatiner
 
 
-*) docker pull imagename 
+*) docker pull imagename
+*) docker images  
 *) docker run imagename/ docker run -it imagename:version
 *) docker ps -a
 *) docker container exec -it id bash

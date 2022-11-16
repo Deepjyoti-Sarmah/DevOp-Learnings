@@ -1,0 +1,52 @@
+1998  docker run hello-world
+ 1999  docker pull ubuntu
+ 2000  docker ps -a
+ 2001  docker images 
+ 2002  docker run -it ubuntu
+ 2003  ls
+ 2004  docker run ubuntu
+ 2005  ls
+ 2006  docker ps
+ 2007  docker ps -a
+ 2008  docker run -it ubuntu
+ 2009  docker remove d0008b34e6ab
+ 2010  docker rm d0008b34e6ab
+ 2011  docker ps -a
+ 2012  docker ps 
+ 2013  docker run -it ubuntu
+ 2014  docker ps -a
+ 2015  docker logs 6d44b162ce7a
+ 2016  docker container prune -f
+ 2017  docker ps -a 
+ 2018  docker run ubuntu ping www.civo.com
+ 2019  docker run
+ 2020  docker ps 
+ 2021  docker ps -a
+ 2022  docker run -d alpine ping www.civo.com
+ 2023  docker ps
+ 2024  docker stop f837d68781f5 
+ 2025  docker ps 
+ 2026  docker run ubuntu echo hey
+ 2027  docker ps 
+ 2028  ncdu
+ 2029  ls
+ 2030  docker ps 
+ 2031  docker ps -a
+ 2032  docker logs f837
+ 2033  docker logs --since 5s f837
+ 2034  docker stop f837
+ 2035  docker ps -a
+ 2036  docker stop f53f
+ 2037  docker stop c4ce
+ 2038  ls
+ 2039  docker ls
+ 2040  docker ps
+ 2041  docker ps -a
+ 2042  docker rm c4ce
+ 2043  ls
+ 2044  docke ps 
+ 2045  docke ps -a
+ 2046  docker images
+ 2047  docker rmi alpine:latest -f
+ 2048  docker images
+ 2049  docker run -d -p 8080:80 nginx
